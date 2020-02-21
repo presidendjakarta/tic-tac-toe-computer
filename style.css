@@ -1,0 +1,25 @@
+#xLevel {}
+#xPlay {
+    text-transform: uppercase;
+}
+#papan {
+    margin: 30px auto;
+    overflow: auto;
+}
+.block {
+    width: 100px;
+    height: 100px;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    font-size: 50px;
+    cursor: pointer;
+}
+.block.dark {
+    background-color: #D6D6D6;
+    color: black !important;
+}
+.block.light {
+    background-color: #E5E5E5;
+    color: black !important;
+}

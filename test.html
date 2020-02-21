@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe Computer</title>
+    <link href='bootstrap.css' rel='stylesheet prefetch'>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-3"></div>
+            <div class="col-6 text-center">
+                <h1>Tic Tac Toe<br>
+                <small id="xLevel">Level 1</small></h1>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">X win</span>
+                    </div><input class="form-control" id="xWin" readonly type="text" value="0">
+                    <div class="input-group-append">
+                        <span class="input-group-text">time(s)</span>
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">O win</span>
+                    </div><input class="form-control" id="oWin" readonly type="text" value="0">
+                    <div class="input-group-append">
+                        <span class="input-group-text">time(s)</span>
+                    </div>
+                </div><button class="btn btn-primary btn-block" id="xPlay" type="button">play</button>
+            </div>
+            <div class="col-3"></div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col">
+                <div id="papan"></div>
+            </div>
+        </div>
+    </div>
+    <script src='jquery-3.4.1.min.js'>
+    </script> 
+    <script src="game.js">
+    </script>
+</body>
+</html>
